@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="detect_fire" type="play_alarm.py" />
+    <node pkg="detect_fire" type="detect_fire.py" name="fire_detector" output="screen">
+        <param name="fire_detection_state" type="bool" value="false" />
+    </node>
+</launch>

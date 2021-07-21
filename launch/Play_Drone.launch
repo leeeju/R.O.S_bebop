@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="detect_fire" type="test_move001.py" name="move_param" output="screen" />
+    <node pkg="detect_fire" type="detect_fire.py" name="detect_param" output="screen" >
+
+    
+    </node>
+</launch>
